@@ -25,6 +25,6 @@ public class AnimalPicker
 				System.out.println("Invalid response");
 				break;
 		}
-		return null;
+		return askUser();
 	}
 }
