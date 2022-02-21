@@ -16,10 +16,10 @@ public class AnimalPicker
 		switch(in.nextLine())
 		{
 			case "dog":
-				System.out.println("DOG ASCII ART HERE");
+				System.out.println(" / \\__\n  (    @\\___\n  /         O\n /   (_____/\n/_____/   U");
 				return "dog";
 			case "cat":
-				System.out.println("CAT ASCII ART HERE");
+				System.out.println(" _._     _,-\'\"\"`-._\n(,-.`._,\'(       |\\`-/|\n    `-.-\' \\ )-`( , o o)\n          `-    \\`_`\"\'-");
 				return "cat";
 			default:
 				System.out.println("Invalid response");
